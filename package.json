@@ -1,7 +1,7 @@
 {
   "name": "phishing-analyzer",
   "version": "0.1.0",
-  "homepage": "https://christinraju.github.io/phishing-analyzer",
+  "homepage": "https://ChristinRaju.github.io/phishing-analyzer",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.18",
