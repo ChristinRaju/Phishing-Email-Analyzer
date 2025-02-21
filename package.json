@@ -1,6 +1,7 @@
 {
   "name": "phishing-analyzer",
   "version": "0.1.0",
+  "homepage": "https://your-username.github.io/phishing-analyzer",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.18",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,3 +45,4 @@
     ]
   }
 }
+
